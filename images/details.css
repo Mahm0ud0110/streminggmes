@@ -1,0 +1,532 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#E75E8D;
+    --max-color :#1F2122;
+    --second-color:#2b2d2e;
+    --therd-color:#4b4f52;
+}
+.full_project{
+    width: 100%;
+    position: relative;
+    background-color: var(--max-color) ;
+}
+
+.full_project .header{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.full_project .header img{
+    width: 136px;
+    height: 37px;
+    margin-top: 10px;
+}
+.full_project .header .header_list{
+    display: flex;
+    
+}
+.full_project .header .header_list ul{
+    display: flex;
+    color:#ccc;
+    align-items: center;
+}
+
+.full_project .header .header_list ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.full_project .header .header_list ul li a{
+    color: var(--therd-color);
+    text-decoration: none;
+    font-weight: 10px;
+}
+.full_project .header .header_list ul .profile img{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    position: absolute;
+    right: 5px;
+    top: -7px;
+
+}
+.full_project .header .header_list ul .profile{
+    background-color: var(--second-color);
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: var(--max-color);
+}
+.full_project .header .header_list ul  .profile:hover{
+    background-color: var(--main-color);
+  
+}
+.full_project .header .header_list ul .profile a{
+    color: var(--therd-color);
+}
+
+.full_project .header .header_list ul .profile:hover a{
+    color: azure;  
+ }
+
+ .full_project .header .header_list ul .Home a{
+    color: var(--main-color);
+ } 
+
+ .full_project .header .header_list ul li a:hover{
+    color: var(--main-color);
+ }
+
+.full_project .header .search i{
+    position: absolute;
+    left: 8px;
+    top: 20px;
+    color: var(--therd-color);
+}
+
+.full_project .header .search input::placeholder{
+    color:var(--therd-color);
+}
+.full_project .header .search{
+    position: relative;
+    width: 20%;
+}
+
+.full_project .header .line{
+    width: .7px;
+    height: 29px;
+    margin-top: 13px;
+    background-color: var(--second-color);
+    font-size: 0%;
+}
+ 
+.full_project .header .search input{
+    height: 50%;
+    width: 80%;
+    border-radius: 20px;
+    background-color:var(--second-color) ;
+    border: none;
+    margin-top: 15px;
+    text-indent: 35px;
+}
+
+.full_project .footer p .c{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    height: -1px;
+    margin-top: -100px;
+    display: inline-block;
+    border: 1px solid azure;
+}
+
+.full_project .footer p{
+    color: azure;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.full_project .fullbody{
+    background-color: var(--second-color);
+    margin: auto;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 35px;
+}
+
+.full_project .fullbody .baner .baner_Left{
+    width: 34%;
+    height: 100%;
+}
+
+.full_project .fullbody .baner .baner_Left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.full_project .fullbody .baner .banerright{
+    width: 64%;
+    height: 100%;   
+    position: relative;
+}
+
+.full_project .fullbody .baner .banerright img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.fa-circle-play{
+    position: absolute;
+    top: 38%;
+    left: 43%;
+    z-index: 10;
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+.full_project .fullbody .baner{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 30vh;
+    gap: 2%;
+}
+
+.full_project .fullbody h1{
+    font-size: 30px;
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.full_project .fullbody .details{
+    width: 100%;
+    background-color: var(--max-color);
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+}
+.full_project .fullbody .details .sum_divs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.full_project .fullbody .details .sum_divs .div_left{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    padding: 10px;
+    height: 8vh;
+}
+
+.full_project .fullbody .details .sum_divs .div_left h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: azure;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.full_project .fullbody .details .sum_divs .div_left p{
+    color: var(--therd-color);
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    margin-left: 0%;
+}
+.fa-star{ 
+    color: gold;
+    font-size: 12px;
+}
+
+.fa-download{
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+.icons span{
+    color: azure;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fa-gamepad,.fa-hard-drive{
+    color: var(--main-color);
+}
+
+.full_project .fullbody .details .sum_divs .div_right i{
+    margin-left: 7px;
+}
+
+.full_project .fullbody .details .sum_divs .div_right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 49%;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    padding: 10px;
+    height: 8vh;
+}
+
+.full_project .fullbody .details .sum_divs .div_right p{
+    color: azure;
+    margin: auto;
+}
+
+.full_project .fullbody .details img{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 8px;
+    width: 30%;
+}
+
+.full_project .fullbody .details p{
+    color:var(--therd-color) ;
+    margin: 20px;
+}
+
+.full_project .fullbody .details span{
+    color: azure;
+}
+
+.full_project .fullbody .details button{
+    width: 100%;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 13px;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.full_project .fullbody .details button:hover{
+    background-color: azure;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.full_project .footer p .cyb:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.full_project .footer p .mod:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.full_project .fullbody .last_div{
+    width: 100%;
+    background-color: var(--max-color);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+} 
+
+.full_project .fullbody .last_div h3{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--main-color);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.full_project .fullbody .last_div h3 span{
+    color: azure;
+    text-decoration: underline;
+}
+
+.full_project .fullbody .last_div .games .games_left{
+    width: 50%;
+}
+
+.full_project .fullbody .last_div .games .games_right{
+    width: 50%;
+}
+
+.full_project .fullbody .last_div .games .icons{
+    margin-top: 10px;
+}
+.full_project .fullbody .last_div .games{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+ .full_project .fullbody .last_div .games .total{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.full_project .fullbody .last_div hr{
+    border: 1px solid var(--second-color);
+}
+.full_project .fullbody .last_div .games .total .game_text{
+    display: flex;
+    gap: 10px; 
+    margin-top: 5px;
+}
+
+.full_project .fullbody .last_div .games .total img{
+    width: 20%;
+    height: 90%;
+    border-radius: 14px;
+    margin-bottom:5%;
+}
+
+.full_project .fullbody .last_div .games .total p{
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: var(--therd-color);
+}
+#chack_list,
+.fa-list{
+    display: none;
+}
+.full_project .fullbody .last_div .games .total h3{
+    color: azure;
+    font-size: large;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:900px) {
+    .full_project .header {
+        flex-direction: column;
+        text-align: center;
+    } 
+    .line{
+        margin: auto;
+    }
+    .full_project .header img{
+        position: absolute;
+        left: 1%;
+    }
+    .full_project .header .header_list,.search{
+        display: none;
+    } 
+    .full_project .header .header_list ul li img{
+        margin-left: 85px;
+    }
+
+    .header label .fa-list{
+        display: block;
+        font-size: 30px;
+        color: var(--main-color);
+        text-align: right;
+        margin-top: -28px;
+        /* position: absolute;
+        top: 30%;
+        right: 4%; */
+    }
+    #chack_list{
+        display: none;
+    }
+    .full_project .header .search {
+        width: 30%;
+        height: 60Px;
+        margin-top: 20px;
+        margin: auto; 
+        display: none;
+    }
+    #chack_list:checked + label + .header_list{
+        display: block;
+    }
+
+    .full_project .header .header_list ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .full_project .fullbody .baner{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 53%;
+    }
+    .full_project .fullbody .baner .baner_Left,
+    .full_project .fullbody .baner .banerright{
+        width: 100%; 
+    }
+    .full_project .fullbody .baner img{
+        width: 100%;
+    } 
+    .full_project .fullbody .details .sum_divs{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .full_project .fullbody .details .sum_divs .div_left,
+    .full_project .fullbody .details .sum_divs .div_right{
+        width: 100%;
+        height: 60px;
+    }
+}
+@media screen and (max-width:550px) {
+    .full_project .fullbody .details{
+        flex-direction: column;
+    }
+    .full_project .fullbody .details img{
+    width: 100%;
+    flex-direction: column;
+    }  
+    .full_project .fullbody .last_div .games{
+        flex-direction: column;
+    }
+    .full_project .fullbody .last_div .games .games_left,
+    .full_project .fullbody .last_div .games .games_right{
+        width: 100%;
+    }
+    .full_project .fullbody .baner{
+        margin-bottom: 53%;
+    }
+}
+@media screen and (max-width:450px){
+    .full_project .fullbody h1{
+        font-size: 22px;
+    }
+    .full_project .fullbody .details p{
+        font-size: 15px;
+    }
+    .full_project .fullbody .details button{
+        font-size: 10px;
+    }
+    .full_project .fullbody .baner{
+        margin-bottom: 40%;
+    }
+}
+@media screen and (max-width:400px){
+
+    .full_project .fullbody .last_div h3{
+        font-size: 20px;
+    }
+    /* .full_project .fullbody h1{
+        font-size: 20px; 
+        margin-top: 140px;
+    }
+         */
+    .full_project  .fullbody{
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .full_project .header{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+      }
+      .full_project .fullbody .baner{
+        margin-bottom: 54%;
+    }
+
+    .full_project .footer{
+        font-size: 13px;
+    }
+}
